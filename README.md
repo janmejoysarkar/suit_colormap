@@ -9,10 +9,6 @@
 	<meta name="qrichtext" content="1"/>
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
-	<style type="text/css">
-		p { font-variant: normal; color: #000000; font-family: Monospace; font-size: 9pt; font-style: normal; font-weight: normal; margin-bottom: 0.1in }
-		pre { font-variant: normal; color: #000000; font-style: normal; font-weight: normal }
-	</style>
 </head>
 <body lang="en-US" text="#000000" dir="ltr"><pre><b>SUIT Colormap</b>
 Maintained by- Janmejoy Sarkar, SUIT- Aditya-L1
