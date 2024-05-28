@@ -6,7 +6,7 @@ Created on Fri May 24 18:13:03 2024
 @author: janmejoyarch
 """
 
-from matplotlib.colors import LinearSegmentedColormap
+from matplotlib.colors import LinearSegmentedColormap, PowerNorm
 import matplotlib.pyplot as plt
 from astropy.io import fits
 import glob
@@ -25,7 +25,7 @@ filterColor = {
     'NB01': make_cmap(['#000000','#ffffff']),
     'NB02': make_cmap(['#000000','#3e600c','#a4d15e','#ffffff']),
     'NB03': make_cmap(['#000000','#672000','#ffc600','#ffffff'], [0,0.34,0.68,1]), 
-    'NB04': make_cmap(['#000000','#674201','#c1a50a','#ffffff']),
+    'NB04': make_cmap(['#000000','#674201','#dfbe0b','#ffffff']),
     'NB05': make_cmap(['#000000','#763200','#ff9600','#ffffff'], [0,0.24,0.57,1]),
     'NB06': make_cmap(['#000000','#005393','#68b0d6','#ffffff'], [0,0.38,0.66,1]),
     'NB07': make_cmap(['#000000', '#aa4639', '#ffffff']),
@@ -33,11 +33,11 @@ filterColor = {
 }
 
 if __name__=="__main__":
-    ftr_name='NB05' 
-    file= glob.glob(f'/home/janmejoyarch/shared_folder/FITS_FOR_CHAIRMAN/*{ftr_name}.fits')[0]
+    ftr_name='NB08' 
+    file= sorted(glob.glob(f'/home/janmejoyarch/sftp_drive/suit_data/level1fits/2024/05/27/normal_roi/*T08.51*{ftr_name}.fits'))[0]
     data=fits.open(file)[0].data
     plt.figure(ftr_name)
-    plt.imshow(data, vmin=0, cmap= filterColor[ftr_name], origin='lower')
+    plt.imshow(data, cmap= filterColor[ftr_name], norm= PowerNorm(0.6,vmin=0), origin='lower')
     plt.title(ftr_name)
     plt.colorbar()
     plt.show()

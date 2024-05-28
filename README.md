@@ -69,7 +69,11 @@ filterColor[&quot;BB01&quot;]</p>
 <pre class="western"><b>Usage</b>:
 
 from colormap import filterColor
+from matplotlib.colors import PowerNorm
+
 data= #image data as 2D numpy array
-plt.imshow(data, vmin=0, vmax= vmx, cmap= filterColor[filter-name], origin='lower')</pre>
+plt.imshow(data, vmin=0, vmax= vmx, cmap= filterColor[filter-name], norm=PowerNorm(0.6,vmin=0), origin='lower')
+#Use powernorm for RoI images or if needed.</pre>
+
 </body>
 </html>
