@@ -2,14 +2,24 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<meta name="generator" content="LibreOffice 7.6.6.3 (Linux)"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.6.7.2 (Linux)"/>
 	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2024-05-27T14:15:42.348333606"/>
+	<meta name="changed" content="2024-05-28T11:24:12.964656520"/>
 	<meta name="qrichtext" content="1"/>
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
+	<meta name="created" content="00:00:00">
+	<style type="text/css">
+		@page { size: 8.5in 11in; margin-left: 0.79in; margin-right: 0.39in; margin-top: 0.39in; margin-bottom: 0.39in }
+		p { color: #000000; line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { color: #000000; background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "Noto Sans Mono CJK SC", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
 </head>
-<body lang="en-US" text="#000000" dir="ltr"><pre><b>SUIT Colormap</b>
+<body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr"><pre class="western"><b>SUIT Colormap</b>
 Maintained by- Janmejoy Sarkar, SUIT- Aditya-L1
 
 This project maintatins the colormap for SUIT images.
@@ -37,11 +47,11 @@ filterColor[&quot;BB01&quot;]</p>
 
 </p>
 <p style="margin-bottom: 0in">filterColor[&quot;NB03&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170789374525446.png" name="Image6" align="bottom" width="512" height="64" border="0"/>
+<p style="margin-bottom: 0in"><img src="README_files/qt_img170922518511622.png" name="Image7" align="bottom" width="512" height="64" border="0"/>
 
 </p>
 <p style="margin-bottom: 0in">filterColor[&quot;NB04&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170922518511622.png" name="Image7" align="bottom" width="512" height="64" border="0"/>
+<p style="margin-bottom: 0in"><img src="README_files/qt_img170789374525446.png" name="Image6" align="bottom" width="512" height="64" border="0"/>
 
 </p>
 <p style="margin-bottom: 0in">filterColor[&quot;NB05&quot;]</p>
@@ -65,7 +75,7 @@ filterColor[&quot;BB01&quot;]</p>
 <br/>
 
 </p>
-<pre><b>Usage</b>:
+<pre class="western"><b>Usage</b>:
 
 from colormap import filterColor
 data= #image data as 2D numpy array
