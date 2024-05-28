@@ -2,7 +2,6 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
 	<meta name="generator" content="LibreOffice 7.6.7.2 (Linux)"/>
 	<meta name="created" content="00:00:00"/>
 	<meta name="changed" content="2024-05-28T11:24:12.964656520"/>
@@ -10,14 +9,6 @@
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
 	<meta name="created" content="00:00:00">
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin-left: 0.79in; margin-right: 0.39in; margin-top: 0.39in; margin-bottom: 0.39in }
-		p { color: #000000; line-height: 115%; margin-bottom: 0.1in; background: transparent }
-		pre { color: #000000; background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "Noto Sans Mono CJK SC", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-	</style>
 </head>
 <body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr"><pre class="western"><b>SUIT Colormap</b>
 Maintained by- Janmejoy Sarkar, SUIT- Aditya-L1
