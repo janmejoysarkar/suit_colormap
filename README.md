@@ -1,79 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<meta name="generator" content="LibreOffice 7.6.7.2 (Linux)"/>
-	<meta name="created" content="00:00:00"/>
-	<meta name="changed" content="2024-05-28T11:24:12.964656520"/>
-	<meta name="qrichtext" content="1"/>
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-	<meta name="created" content="00:00:00">
-</head>
-<body lang="en-US" text="#000000" link="#000080" vlink="#800000" dir="ltr"><pre class="western"><b>SUIT Colormap</b>
-Maintained by- Janmejoy Sarkar, SUIT- Aditya-L1
 
-This project maintatins the colormap for SUIT images.
+![Logo](https://suit.iucaa.in/sites/default/files/top_banner_compressed_2_1.png)
 
-Filter-names:
-[&quot;NB01&quot;, &quot;NB02&quot;, &quot;NB03&quot;, &quot;NB04&quot;, &quot;NB05&quot;, &quot;NB06&quot;, &quot;NB07&quot;, &quot;NB08&quot;, &quot;BB01&quot;, &quot;BB02&quot;, &quot;BB03&quot;]</pre><p style="margin-bottom: 0in">
-filterColor[&quot;BB01&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170316928122886.png" name="Image1" align="bottom" width="512" height="64" border="0"/>
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;BB02&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170372762697734.png" name="Image2" align="bottom" width="512" height="64" border="0"/>
+# SUIT Colormap
+- Colormap for 11 science bandpasses of the SUIT payload of Aditya-L1.
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;BB03&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170428597272582.png" name="Image3" align="bottom" width="512" height="64" border="0"/>
+Created by Janmejoy Sarkar @ [SUIT](https://suit.iucaa.in)LAB\
+Initiated in May 2024.
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB01&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170523086553094.png" name="Image4" align="bottom" width="512" height="64" border="0"/>
+## Screenshots
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB02&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170656230539270.png" name="Image5" align="bottom" width="512" height="64" border="0"/>
+![BB01](./README_files/qt_img170316928122886.png)
+![BB02](./README_files/qt_img170372762697734.png)
+![BB03](./README_files/qt_img170428597272582.png)
+![NB01](./README_files/qt_img170523086553094.png)
+![NB02](./README_files/qt_img170656230539270.png)
+![NB03](./README_files/qt_img170922518511622.png)
+![NB04](./README_files/qt_img170789374525446.png)
+![NB05](./README_files/qt_img171055662497798.png)
+![NB06](./README_files/qt_img171188806483974.png)
+![NB07](./README_files/qt_img171283295764486.png)
+![NB08](./README_files/qt_img171416439750662.png)
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB03&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170922518511622.png" name="Image7" align="bottom" width="512" height="64" border="0"/>
+## Authors
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB04&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img170789374525446.png" name="Image6" align="bottom" width="512" height="64" border="0"/>
+- [@janmejoysarkar](https://github.com/janmejoysarkar)
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB05&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img171055662497798.png" name="Image8" align="bottom" width="512" height="64" border="0"/>
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB06&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img171188806483974.png" name="Image9" align="bottom" width="512" height="64" border="0"/>
+## Acknowledgements
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB07&quot;] 
-</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img171283295764486.png" name="Image10" align="bottom" width="512" height="64" border="0"/>
+ - [IUCAA, Pune](https://www.iucaa.in)
+ - [ISRO, Aditya-L1](https://www.isro.gov.in/Aditya_L1.html)
 
-</p>
-<p style="margin-bottom: 0in">filterColor[&quot;NB08&quot;]</p>
-<p style="margin-bottom: 0in"><img src="README_files/qt_img171416439750662.png" name="Image11" align="bottom" width="512" height="64" border="0"/>
 
-</p>
-<p><br/>
-<br/>
+## Usage/Examples
 
-</p>
-<pre class="western"><b>Usage</b>:
-
+```python
 from colormap import filterColor
 from matplotlib.colors import PowerNorm
 
 data= #image data as 2D numpy array
 plt.imshow(data, cmap= filterColor[filter-name], norm=PowerNorm(0.6,vmin=0), origin='lower')
-#Use powernorm for RoI images or if needed.</pre>
-
-</body>
-</html>
+#Use powernorm for RoI images or if needed.
