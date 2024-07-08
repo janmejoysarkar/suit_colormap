@@ -10,17 +10,17 @@ Initiated in May 2024.
 
 ## Screenshots
 
-![BB01](./README_files/qt_img170316928122886.png)
-![BB02](./README_files/qt_img170372762697734.png)
-![BB03](./README_files/qt_img170428597272582.png)
-![NB01](./README_files/qt_img170523086553094.png)
-![NB02](./README_files/qt_img170656230539270.png)
-![NB03](./README_files/qt_img170922518511622.png)
-![NB04](./README_files/qt_img170789374525446.png)
-![NB05](./README_files/qt_img171055662497798.png)
-![NB06](./README_files/qt_img171188806483974.png)
-![NB07](./README_files/qt_img171283295764486.png)
-![NB08](./README_files/qt_img171416439750662.png)
+- BB01 ![BB01](./README_files/qt_img170316928122886.png)
+- BB02 ![BB02](./README_files/qt_img170372762697734.png)
+- BB03 ![BB03](./README_files/qt_img170428597272582.png)
+- NB01 ![NB01](./README_files/qt_img170523086553094.png)
+- NB02 ![NB02](./README_files/qt_img170656230539270.png)
+- NB03 ![NB03](./README_files/qt_img170922518511622.png)
+- NB04 ![NB04](./README_files/qt_img170789374525446.png)
+- NB05 ![NB05](./README_files/qt_img171055662497798.png)
+- NB06 ![NB06](./README_files/qt_img171188806483974.png)
+- NB07 ![NB07](./README_files/qt_img171283295764486.png)
+- NB08 ![NB08](./README_files/qt_img171416439750662.png)
 
 ## Authors
 
