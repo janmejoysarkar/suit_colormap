@@ -13,7 +13,7 @@ from colormap import filterColor
 import os
 
 if __name__=="__main__":
-    save=True
+    save=input("Save? [y/n] ")
     project_path= os.path.expanduser('~/Dropbox/Janmejoy_SUIT_Dropbox/SUIT_publicity/colormap_project')
     
     vmx_dict={"NB01":25000.0,
@@ -28,7 +28,7 @@ if __name__=="__main__":
     "BB02":10000.0,
     "BB03":32000.0}
     
-    ftr_name='NB05'
+    ftr_name='BB03'
     file= glob.glob(f'{project_path}/data/*1.0*{ftr_name}.fits')[0]
     data=fits.open(file)[0].data
     print(os.path.basename(file))
@@ -36,7 +36,7 @@ if __name__=="__main__":
     plt.imshow(data, vmin=0, vmax= vmx_dict[ftr_name], cmap= filterColor[ftr_name], origin='lower')
     plt.title(ftr_name)
     plt.colorbar()
-    if save==True: plt.savefig(f'{project_path}/products/{os.path.basename(file)[:-5]}.png', dpi=600)
+    if save=='y': plt.savefig(f'{project_path}/products/{os.path.basename(file)[:-5]}.png', dpi=600)
     plt.show()
 '''
     for ftr_name, vmx in zip(ftr_list, vmx_list):        
